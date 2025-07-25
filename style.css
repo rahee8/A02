@@ -104,6 +104,7 @@ btn:active {
 .main-nav-link {
 	text-decoration: none;
 	font-size: 1.6rem;
+    white-space: nowrap;
 }
 
 .cart:link, .cart:visited{
@@ -211,8 +212,13 @@ btn:active {
 	max-width: 90rem;
 	display: grid;
 	grid-template-columns: 3.5fr 1fr;
-	padding-top: 26rem;
+	padding-top: 1rem;
 	margin: 0 auto;
+}
+.join-heading{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 43rem;
 }
 .email-input {
 	padding: 1.2rem 2.4rem;
