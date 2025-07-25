@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Inter", "sans-serif";
+	line-height: 1;
+	font-weight: 400;
+	color: #00000080;
+}
+
+/* -------------------------- */
+/* GENERAL REUSEABLE COMPONENT */
+/* -------------------------- */
+
+.primary-heading {
+	font-size: 6.2rem;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 2.4rem;
+	font-family: "Noto Serif", "sans-serif";
+	color: #000;
+}
+
+.em-heading {
+	color: #e95a08;
+}
+
+a:link,
+a:visited {
+	color: #8987a1;
+}
+
+a:hover,
+a:active {
+	color: #252432;
+	font-weight: 700;
+}
+/* -------------------------- */
+/* HEADER */
+/* -------------------------- */
+.logo {
+	height: 6.4rem;
+}
+
+.header {
+	max-width: 130rem;
+	display: grid;
+	grid-template-columns: 1.2fr 0.8fr;
+	align-items: center;
+	margin: 1.6rem auto 12.8rem;
+}
+
+.main-nav-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	list-style: none;
+	justify-items: end;
+	gap: 4.8rem;
+}
+
+.main-nav-link {
+	text-decoration: none;
+	font-size: 1.6rem;
+}
+/* -------------------------- */
+/* HERO SECTION */
+/* -------------------------- */
+.hero-container {
+	max-width: 130rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto;
+	align-items: center;
+	margin-bottom: ;
+}
+
+.hero-description {
+	font-size: 2rem;
+	line-height: 1.4;
+}
+
+.hero-img {
+	width: 100%;
+}
