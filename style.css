@@ -105,17 +105,24 @@ btn:active {
 	text-decoration: none;
 	font-size: 1.6rem;
 }
+
+.cart:link, .cart:visited{
+    color: #000;
+    font-weight: 700;
+}
 /* -------------------------- */
 /* HERO SECTION */
 /* -------------------------- */
 .hero-box {
 	max-width: 130rem;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
 	margin: 0 auto 12.8rem;
 	align-items: center;
 }
-
+.hero-text-box {
+	display: grid;
+	flex: 1;
+}
 .hero-description,
 .our-plants-description {
 	font-size: 2rem;
@@ -207,13 +214,13 @@ btn:active {
 	padding-top: 26rem;
 	margin: 0 auto;
 }
-.email-input{
-    padding: 1.2rem 2.4rem;
-    font-size: 1.6rem;
+.email-input {
+	padding: 1.2rem 2.4rem;
+	font-size: 1.6rem;
 }
-.btn-subscribe{
-    font-size: 1.6rem;
-    font-weight: 600;
+.btn-subscribe {
+	font-size: 1.6rem;
+	font-weight: 600;
 }
 
 /* -------------------------- */
@@ -241,16 +248,16 @@ btn:active {
 	display: grid;
 }
 
-.footer-nav-list{
-    grid-template-columns: 1fr 1fr;
-    row-gap: 3.2rem;
-    column-gap: 8rem;
+.footer-nav-list {
+	grid-template-columns: 1fr 1fr;
+	row-gap: 3.2rem;
+	column-gap: 8rem;
 }
 
-.get-connected-socials-list{
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    column-gap: 2.4rem;
+.get-connected-socials-list {
+	grid-template-columns: repeat(4, 1fr);
+	align-items: center;
+	column-gap: 2.4rem;
 }
 
 .footer-nav-link {

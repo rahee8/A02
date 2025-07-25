@@ -1,0 +1,22 @@
+@media (max-width: 48em) {
+	.hero-box {
+		max-width: 48rem;
+		flex-direction: column-reverse;
+		gap: 4.8rem;
+	}
+	.hero-img {
+		margin-bottom: 2.4rem;
+	}
+
+	.primary-heading {
+		font-size: 5.2rem;
+	}
+	.hero-description,
+	.our-plants-description {
+		font-size: 1.8rem;
+	}
+	.hero-box {
+		margin-bottom: 8rem;
+	}
+    
+}

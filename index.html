@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="queries.css" />
 
 		<title>Responsive Flowers</title>
 	</head>
@@ -15,7 +16,7 @@
 					<li><a href="#" class="main-nav-link">Home</a></li>
 					<li><a href="#" class="main-nav-link">Shop</a></li>
 					<li><a href="#" class="main-nav-link">About us</a></li>
-					<li><a href="#" class="main-nav-link">Cart ($56)</a></li>
+					<li><a href="#" class="main-nav-link cart">Cart ($56)</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -219,3 +220,26 @@
 		</footer>
 	</body>
 </html>
+
+@media (max-width: 48em) {
+	.hero-text-box {
+		grid-column: 2;
+	}
+
+	.hero-img {
+		grid-column: 1;
+	}
+	.hero-box {
+		max-width: 48rem;
+		grid-template-columns: 1fr;
+		gap: 3.2rem;
+	}
+	.primary-heading {
+		font-size: 5.2rem;
+	}
+	.hero-description,
+	.our-plants-description {
+		font-size: 1.8rem;
+		line-height: 1.4;
+	}
+}
