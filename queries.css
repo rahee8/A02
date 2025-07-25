@@ -1,4 +1,13 @@
 @media (max-width: 48em) {
+	.header {
+		max-width: 48rem;
+	}
+	.mobile-display {
+		display: none;
+	}
+	.main-nav-link {
+		white-space: nowrap;
+	}
 	.hero-box {
 		max-width: 48rem;
 		flex-direction: column-reverse;
@@ -18,7 +27,7 @@
 	.hero-box {
 		margin-bottom: 8rem;
 	}
-    .secondary-heading {
+	.secondary-heading {
 		font-size: 3.6rem;
 	}
 	.our-plants-description {
@@ -46,15 +55,16 @@
 		padding: 1rem 2rem;
 		font-size: 1.4rem;
 	}
-    .section-footer, .footer-nav-list{
-        max-width: 48rem;
-        grid-template-columns: 1fr;
-    }
-    .footer-logo{
-        height: 9.6rem;
-    }
-    .section-footer{
-        gap: 3.2rem;
-        justify-items: start;
-    }
+	.section-footer,
+	.footer-nav-list {
+		max-width: 48rem;
+		grid-template-columns: 1fr;
+	}
+	.footer-logo {
+		height: 9.6rem;
+	}
+	.section-footer {
+		gap: 3.2rem;
+		justify-items: start;
+	}
 }
