@@ -18,5 +18,43 @@
 	.hero-box {
 		margin-bottom: 8rem;
 	}
-    
+    .secondary-heading {
+		font-size: 3.6rem;
+	}
+	.our-plants-description {
+		max-width: 48em;
+	}
+	.plants-box {
+		max-width: 48em;
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 9.6rem;
+	}
+	.plants-lover-box {
+		max-width: 48rem;
+		grid-template-columns: 1fr;
+		row-gap: 4.8rem;
+		margin-bottom: 6.4rem;
+	}
+	.join-box {
+		max-width: 33rem;
+		padding-top: 15rem;
+	}
+	.section-join {
+		height: 33rem;
+	}
+	.email-input {
+		padding: 1rem 2rem;
+		font-size: 1.4rem;
+	}
+    .section-footer, .footer-nav-list{
+        max-width: 48rem;
+        grid-template-columns: 1fr;
+    }
+    .footer-logo{
+        height: 9.6rem;
+    }
+    .section-footer{
+        gap: 3.2rem;
+        justify-items: start;
+    }
 }
