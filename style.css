@@ -17,6 +17,7 @@ body {
 	line-height: 1;
 	font-weight: 400;
 	color: #00000080;
+	background-color: #f5f8ff;
 }
 
 /* -------------------------- */
@@ -24,16 +25,31 @@ body {
 /* -------------------------- */
 
 .primary-heading {
+	font-family: "Noto Serif", "sans-serif";
 	font-size: 6.2rem;
 	font-weight: 700;
 	line-height: 1.2;
 	margin-bottom: 2.4rem;
-	font-family: "Noto Serif", "sans-serif";
 	color: #000;
+}
+
+.secondary-heading {
+	font-family: "Noto Serif", "sans-serif";
+	font-size: 4.4rem;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 2.4rem;
 }
 
 .em-heading {
 	color: #e95a08;
+}
+
+.horizon-center {
+	text-align: center;
+}
+.special-gap {
+	margin-bottom: 0.8rem;
 }
 
 a:link,
@@ -45,6 +61,22 @@ a:hover,
 a:active {
 	color: #252432;
 	font-weight: 700;
+}
+
+.btn {
+	border: none;
+	width: 100%;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #fff;
+	background-color: #e95a08;
+	padding: 1.6rem 3.2rem;
+}
+
+.btn:hover,
+btn:active {
+	color: #000;
+	background-color: #ddd;
 }
 /* -------------------------- */
 /* HEADER */
@@ -76,20 +108,151 @@ a:active {
 /* -------------------------- */
 /* HERO SECTION */
 /* -------------------------- */
-.hero-container {
+.hero-box {
 	max-width: 130rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin: 0 auto;
+	margin: 0 auto 12.8rem;
 	align-items: center;
-	margin-bottom: ;
 }
 
-.hero-description {
+.hero-description,
+.our-plants-description {
 	font-size: 2rem;
 	line-height: 1.4;
 }
 
 .hero-img {
 	width: 100%;
+}
+/* -------------------------- */
+/* OUR PLANTS */
+/* -------------------------- */
+.our-plants-description {
+	max-width: 70rem;
+	margin: 0 auto 4.8rem;
+}
+
+.plants-box {
+	max-width: 130rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0 auto 12.8rem;
+	column-gap: 2rem;
+	row-gap: 3rem;
+}
+
+.plant-box {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	row-gap: 1.2rem;
+}
+
+.plant-img {
+	width: 100%;
+}
+
+.plant-name {
+	color: #111111;
+	font-weight: 500;
+	font-size: 2rem;
+}
+.plant-price {
+	color: #111111;
+	font-weight: 700;
+	font-size: 2rem;
+}
+/* -------------------------- */
+/* Flower & Plants Lover */
+/* -------------------------- */
+
+.plants-lover-box {
+	max-width: 130rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 auto 12.8rem;
+	align-items: center;
+	justify-items: center;
+	column-gap: 9.6rem;
+}
+
+.plants-lover-img {
+	width: 100%;
+}
+
+.plants-lover-description-box {
+	padding: 2rem;
+}
+.plants-lover-description {
+	font-size: 2rem;
+	line-height: 1.4;
+	margin-bottom: 2rem;
+}
+
+/* -------------------------- */
+/* Join Section */
+/* -------------------------- */
+.section-join {
+	background-image: url("assets/news-letter-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 53.3rem;
+	margin-bottom: 8rem;
+}
+.join-box {
+	max-width: 90rem;
+	display: grid;
+	grid-template-columns: 3.5fr 1fr;
+	padding-top: 26rem;
+	margin: 0 auto;
+}
+.email-input{
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+}
+.btn-subscribe{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* -------------------------- */
+/* Footer Section */
+/* -------------------------- */
+.section-footer {
+	max-width: 130rem;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	margin: 0 auto 8rem;
+	justify-items: center;
+}
+
+.footer-logo {
+	height: 6.4rem;
+	margin-bottom: 1.6rem;
+}
+.footer-logo-description {
+	font-size: 2rem;
+	line-height: 1.4;
+}
+.footer-nav-list,
+.get-connected-socials-list {
+	list-style: none;
+	display: grid;
+}
+
+.footer-nav-list{
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.2rem;
+    column-gap: 8rem;
+}
+
+.get-connected-socials-list{
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    column-gap: 2.4rem;
+}
+
+.footer-nav-link {
+	font-size: 1.6rem;
 }
