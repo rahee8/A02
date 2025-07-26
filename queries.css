@@ -55,6 +55,7 @@
 	}
 	.section-join {
 		height: 33rem;
+		width: 100%;
 	}
 	.email-input {
 		padding: 1rem 2rem;
