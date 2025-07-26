@@ -201,6 +201,11 @@ btn:active {
 /* -------------------------- */
 /* Join Section */
 /* -------------------------- */
+
+.section-join-box{
+	padding-top: 22rem;
+	justify-items: center;
+}
 .section-join {
 	background-image: url("assets/news-letter-bg.png");
 	background-repeat: no-repeat;
@@ -212,13 +217,10 @@ btn:active {
 	max-width: 90rem;
 	display: grid;
 	grid-template-columns: 3.5fr 1fr;
-	padding-top: 1rem;
 	margin: 0 auto;
 }
 .join-heading{
     color: #fff;
-    text-align: center;
-    margin-bottom: 43rem;
 }
 .email-input {
 	padding: 1.2rem 2.4rem;
