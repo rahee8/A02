@@ -104,12 +104,13 @@ btn:active {
 .main-nav-link {
 	text-decoration: none;
 	font-size: 1.6rem;
-    white-space: nowrap;
+	white-space: nowrap;
 }
 
-.cart:link, .cart:visited{
-    color: #000;
-    font-weight: 700;
+.cart:link,
+.cart:visited {
+	color: #000;
+	font-weight: 700;
 }
 /* -------------------------- */
 /* HERO SECTION */
@@ -202,7 +203,7 @@ btn:active {
 /* Join Section */
 /* -------------------------- */
 
-.section-join-box{
+.section-join-box {
 	padding-top: 21rem;
 	justify-items: center;
 }
@@ -217,10 +218,12 @@ btn:active {
 	max-width: 90rem;
 	display: grid;
 	grid-template-columns: 3.5fr 1fr;
+	justify-content: center;
 	margin: 0 auto;
 }
-.join-heading{
-    color: #fff;
+.join-heading {
+	color: #fff;
+	text-align: center;
 }
 .email-input {
 	padding: 1.2rem 2.4rem;
