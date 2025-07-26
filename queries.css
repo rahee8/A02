@@ -1,6 +1,6 @@
 @media (max-width: 48em) {
 	.container{
-		margin: 0 5rem;
+		padding: 0 5rem;
 	}
 	.header {
 		max-width: 48rem;
